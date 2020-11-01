@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Objects/Actors/Colliders/Collider.gd" type="Script" id=1]
+
+
+
+
+[sub_resource type="RectangleShape2D" id=1]
+
+[node name="DynamicCollider" type="CollisionShape2D"]
+shape = SubResource( 1 )
+script = ExtResource( 1 )

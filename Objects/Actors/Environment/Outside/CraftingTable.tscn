@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Objects/Tilemaps/TileDungeon.tscn" type="PackedScene" id=1]
+
+
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 20, 11 )
+
+[node name="CraftingTable" type="StaticBody2D"]
+
+[node name="TileDungeon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, -3 )
+tile_data = PoolIntArray( -2, 0, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( 0, 1 )
+shape = SubResource( 1 )

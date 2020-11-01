@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Objects/UI/PlayerHUD/Hotbar/new_styleboxflat.tres" type="StyleBox" id=1]
+[ext_resource path="res://Objects/UI/PlayerHUD/Hotbar/Slot.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Sprites/Kyrise 16x16/crystal_01a.png" type="Texture" id=3]
+
+[node name="Slot" type="Panel"]
+margin_right = 16.0
+margin_bottom = 16.0
+rect_min_size = Vector2( 16, 16 )
+custom_styles/panel = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 16.0
+margin_bottom = 16.0
+rect_min_size = Vector2( 16, 16 )
+texture = ExtResource( 3 )
+stretch_mode = 4
+__meta__ = {
+"_edit_use_anchors_": false
+}

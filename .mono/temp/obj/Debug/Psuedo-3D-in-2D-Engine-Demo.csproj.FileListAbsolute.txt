@@ -1,0 +1,6 @@
+C:\Projects\Pseudo-3D-Orthogonal-2D-Game-Demo\.mono\temp\bin\Debug\Pseudo-3D-Orthogonal-2D-Game-Demo.dll
+C:\Projects\Pseudo-3D-Orthogonal-2D-Game-Demo\.mono\temp\bin\Debug\Pseudo-3D-Orthogonal-2D-Game-Demo.pdb
+C:\Projects\Pseudo-3D-Orthogonal-2D-Game-Demo\.mono\temp\obj\Debug\Pseudo-3D-Orthogonal-2D-Game-Demo.csprojAssemblyReference.cache
+C:\Projects\Pseudo-3D-Orthogonal-2D-Game-Demo\.mono\temp\obj\Debug\Pseudo-3D-Orthogonal-2D-Game-Demo.csproj.CoreCompileInputs.cache
+C:\Projects\Pseudo-3D-Orthogonal-2D-Game-Demo\.mono\temp\obj\Debug\Pseudo-3D-Orthogonal-2D-Game-Demo.dll
+C:\Projects\Pseudo-3D-Orthogonal-2D-Game-Demo\.mono\temp\obj\Debug\Pseudo-3D-Orthogonal-2D-Game-Demo.pdb
