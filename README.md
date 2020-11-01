@@ -9,4 +9,4 @@ Demo video:
 
 To run, load the project into Godot (https://godotengine.org/download/ - standard 64-bit version is sufficient) and press Play (F5). WASD/arrow keys to move, space to jump.
 
-All visual assets (sprites/animations) courtesy of the [HeartBeast](https://www.youtube.com/user/uheartbeast) YouTube channel.
+All visual assets (sprites/animations) courtesy of the [HeartBeast](https://www.youtube.com/user/uheartbeast) YouTube channel; jump sound courtesy of Freesound.org.
