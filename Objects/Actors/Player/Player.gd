@@ -4,6 +4,7 @@ var input : Vector2 = Vector2()
 var inDialogueSession : bool = false
 var frozen : bool = false
 var levitating = false
+onready var jumpSound = $AudioStreamPlayer2D
 
 func _ready():
 	camera = $Camera2D
@@ -26,6 +27,9 @@ func _process(delta):
 	moveForce.y = input.y * moveSpeed.y * delta
 	moveForce.z = int(levitating) * delta
 	impulse.z = int(not inAir) * int(jumping) * jumpImpulse
+	
+	if jumping and (not inAir):
+		jumpSound.play(0)
 
 	#updateRealPosition()
 	#volume.setFakePosition(fakePosition)
