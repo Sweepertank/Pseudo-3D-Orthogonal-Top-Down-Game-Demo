@@ -1,7 +1,7 @@
 # "Pseudo-3D" Orthogonal Top-Down Game Demo
 
-A small demo of an orthogonal 2D game that "fakes" a Z-axis to allow for 3D platforming, ala the *Mario & Luigi* RPG series.
-Runs entirely in Godot's 2D engine -- collisions are calculated in 3D, then the results are transposed to 2D to be drawn by the engine.
+A small demo of an orthogonal-perspective top-down game that "fakes" a Z-axis to allow for 3D platforming, ala the *Mario & Luigi* RPG series.
+Runs entirely in Godot's 2D engine -- positions are stored and calculated in 3D, but are "flattened" into 2D before being processed by Godot.
 
 Demo video:
 
